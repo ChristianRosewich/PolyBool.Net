@@ -5,7 +5,7 @@
 		<RootNamespace>PolyBool.Net</RootNamespace>
 		<Description>Boolean operations on polygons (union, intersection, difference, xor) in .NET</Description>
 		<Copyright>Copyright Ion Dormenco</Copyright>
-		<TargetFrameworks>net462;net472;net481;net6.0;net8.0</TargetFrameworks>
+		<TargetFrameworks>net462;net472;net481;net8.0</TargetFrameworks>
 		<PackageTags>polygons;boolean;union;intersection;difference;xor;polybooljs;</PackageTags>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<IncludeSymbols>true</IncludeSymbols>
@@ -13,10 +13,10 @@
 		<Deterministic>true</Deterministic>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	</PropertyGroup>
+	<Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
+	<Import Sdk="Microsoft.NET.Sdk" Project="Sdk.targets" />
 	<ItemGroup>
 		<PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
 		<PackageReference Condition="'$(TargetFramework)'=='net462'" Include="System.ValueTuple" Version="4.5.0" />
 	</ItemGroup>
-	<Import Sdk="Microsoft.NET.Sdk" Project="Sdk.props" />
-	<Import Sdk="Microsoft.NET.Sdk" Project="Sdk.targets" />
 </Project>

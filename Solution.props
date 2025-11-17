@@ -4,13 +4,13 @@
 		<BaseOutputPath>..\..\bin\$(AssemblyName)\</BaseOutputPath>
 		<BaseIntermediateOutputPath>..\..\obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
 		<RootNamespace>$(MSBuildProjectName.Replace(".","_").Replace("_net",""))</RootNamespace>
-		<LangVersion>12.0</LangVersion>
+		<LangVersion>14.0</LangVersion>
 		<Nullable>enable</Nullable>
 		<DefineConstants>NULLABLE</DefineConstants>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<Company>JC-Soft</Company>
 		<Authors>Joe Care</Authors>
-		<Copyright>Copyright © JC-Soft 2024</Copyright>
+		<Copyright>Copyright © JC-Soft 2025</Copyright>
 	</PropertyGroup>
 	<PropertyGroup Condition="'$(Configuration)'=='Debug'">
 		<Optimize>False</Optimize>
