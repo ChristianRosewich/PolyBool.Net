@@ -2,9 +2,9 @@
 	<Import Project="..\Solution.props" />
 	<PropertyGroup>
 		<Authors>Ion Dormenco</Authors>
-		<RootNamespace>PolyBool.Net</RootNamespace>
-		<Description>Boolean operations on polygons (union, intersection, difference, xor) in .NET</Description>
 		<Copyright>Copyright Ion Dormenco</Copyright>
+		<Description>Boolean operations on polygons (union, intersection, difference, xor) in .NET</Description>
+		<RootNamespace>PolyBool.Net</RootNamespace>
 		<TargetFrameworks>net462;net472;net481;net8.0</TargetFrameworks>
 		<PackageTags>polygons;boolean;union;intersection;difference;xor;polybooljs;</PackageTags>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>

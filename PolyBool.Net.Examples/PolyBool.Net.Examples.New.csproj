@@ -1,6 +1,8 @@
 ﻿<Project>
 	<Import Project="..\Solution.props" />
 	<PropertyGroup>
+		<Authors>Ion Dormenco</Authors>
+		<Copyright>Copyright Ion Dormenco</Copyright>
 		<OutputType>Exe</OutputType>
 		<TargetFrameworks>net462;net472;net481;net6.0;net8.0</TargetFrameworks>
 		<Nullable>enable</Nullable>

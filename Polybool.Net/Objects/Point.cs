@@ -31,5 +31,11 @@ public class Point<T>(T x, T y) : IPoint<T> where T : struct
         return base.Equals(obj);
     }
 
-    public static Func<T, T, IPoint<T>> New { get; set; } = (x, y) => new Point<T>(x, y);
+    public override int GetHashCode()
+    {
+        return X.GetHashCode() ^ (-Y.GetHashCode());
+    }
+
+    public static Func<T, T, IPoint<T>> New { get; set; } = 
+        (x, y) => new Point<T>(x, y);
 }
